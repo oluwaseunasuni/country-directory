@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <div class="Container">
+  
 
+    <b-container>  
       <label for="country">Select a Country: </label>
       <b-form-select 
         v-model="selectedOne" 
@@ -43,9 +43,8 @@
           :value="city.id">
         </b-form-select-option>
       </b-form-select>
-
-    </div>
-  </div>
+    </b-container>
+    
 </template>
 
 <script>
